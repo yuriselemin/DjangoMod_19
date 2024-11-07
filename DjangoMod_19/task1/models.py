@@ -21,8 +21,8 @@ class Game(models.Model):
 
 
 """
-QuerySet запросы в порядке вызовов:
 
+QuerySet запросы в порядке вызовов:
 
 1.
 Buyer.objects.create(name='Buyer 1', balance=100.00, age=25)
