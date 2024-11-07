@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ec16db98-864a-41d4-8fca-7df8590fffc3" name="Changes" comment="Commit1">
-      <change beforePath="$PROJECT_DIR$/.idea/DgangoMOD_19.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/DgangoMOD_19.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DjangoMod_19/task1/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoMod_19/task1/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoMod_19/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoMod_19/db.sqlite3" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,12 +22,12 @@
     &quot;assignee&quot;: &quot;yuriselemin&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/yuriselemin/DjangoMod_19.git",
-    "accountId": "fd1f314d-84da-466d-afa8-0993a936a11e"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/yuriselemin/DjangoMod_19.git&quot;,
+    &quot;accountId&quot;: &quot;fd1f314d-84da-466d-afa8-0993a936a11e&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
 }</component>
@@ -44,7 +42,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "F:/PYTHON/PROJECTS/FORECAST",
+    "last_opened_file_path": "F:/PYTHON/PROJECTS/DgangoMOD_19",
     "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
 }]]></component>
@@ -104,7 +102,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730931137312</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Commit1">
+      <option name="closed" value="true" />
+      <created>1731007447213</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1731007447213</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
