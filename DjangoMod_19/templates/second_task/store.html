@@ -1,0 +1,22 @@
+{% extends "second_task/menu.html" %}
+
+{% block title %}
+    Игры
+{% endblock %}
+
+{% block pagename %}
+    <h1>Игры</h1>
+{% endblock %}
+
+{% block menu  %}
+    {{ block.super }}
+{% endblock %}
+
+{% block content %}
+    <ul>
+        {% for i in store %}
+            <li>{{i.title}} | {{i.description}}. Стоимость: {{i.cost}} <button>Купить</button></li>
+        {% endfor %}
+    </ul>
+
+{% endblock %}

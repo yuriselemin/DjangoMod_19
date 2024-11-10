@@ -1,23 +1,31 @@
-from django.db import models
+from django.db.models import (Model,
+                              CharField,
+                              DecimalField,
+                              IntegerField,
+                              TextField,
+                              BooleanField,
+                              ManyToManyField)
 
-class Buyer(models.Model):
-    name = models.CharField(max_length=100)
-    balance = models.DecimalField(max_digits=10, decimal_places=2)
-    age = models.IntegerField()
+class Buyer(Model):
+    name = CharField(max_length=100)
+    balance = DecimalField(decimal_places=2, max_digits=5)
+    age = IntegerField()
 
     def __str__(self):
         return self.name
 
-class Game(models.Model):
-    title = models.CharField(max_length=200)
-    cost = models.DecimalField(decimal_places=2)
-    size = models.DecimalField(decimal_places=2)
-    description = models.TextField()
-    age_limited = models.BooleanField(default=False)
-    buyer = models.ManyToManyField(Buyer, related_name="games")
+class Game(Model):
+    title = CharField(max_length=100)
+    cost = DecimalField(decimal_places=2, max_digits=5)
+    size = DecimalField(decimal_places=2, max_digits=5)
+    description = TextField()
+    age_limited = BooleanField()
+    buyer = ManyToManyField(Buyer, related_name='games')
 
     def __str__(self):
         return self.title
+
+
 
 """
 QuerySet запросы в порядке вызовов:
@@ -47,5 +55,9 @@ Game.objects.filter(age_limited=True)
 12.
 games_with_age_limit.exclude(buyer=under_18_buyer).update(buyer=buyer1)
 
+
+"""
+
+"""
 
 """
