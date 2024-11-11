@@ -7,10 +7,10 @@ from .models import Buyer, Game
 def main(request):
     return render(request, 'second_task/main.html')
 
-def store(request):
-    store = Game.objects.all()
+def games(request):
+    games = Game.objects.all()
     context = {
-        'store': store
+        'games': games
     }
     return render(request, 'second_task/store.html', context)
 
