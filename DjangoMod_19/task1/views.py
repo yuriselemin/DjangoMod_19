@@ -39,6 +39,3 @@ def sign_up_by_html(request):
                 return render(request, 'second_task/registration_page.html', info)
     else:
         return render(request, 'second_task/registration_page.html')
-
-
-

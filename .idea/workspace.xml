@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ec16db98-864a-41d4-8fca-7df8590fffc3" name="Changes" comment="Commit_11_11">
+      <change afterPath="$PROJECT_DIR$/DjangoMod_19/task1/migrations/0002_alter_buyer_age_alter_buyer_balance_and_more.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DjangoMod_19/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoMod_19/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DjangoMod_19/task1/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoMod_19/task1/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoMod_19/DjangoMod_19/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoMod_19/DjangoMod_19/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoMod_19/task1/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoMod_19/task1/admin.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,17 +50,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;Python.COD_TESTER.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;F:/PYTHON/PROJECTS/DgangoMOD_19&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "Python.COD_TESTER.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "F:/PYTHON/PROJECTS/MySite",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="F:\PYTHON\PROJECTS\DgangoMOD_19\DjangoMod_19\task1" />
@@ -178,7 +180,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731348146699</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Commit_11_11">
+      <option name="closed" value="true" />
+      <created>1731355030194</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1731355030194</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -220,6 +230,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Start" />
     <MESSAGE value="Commit" />
     <MESSAGE value="Commit1" />
